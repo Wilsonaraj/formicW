@@ -1,0 +1,101 @@
+{
+    "firstname": {
+        "type": "text",
+        "label": "First Name", 
+        "required": true
+    },
+    "shortname": {
+        "type": "text",
+        "label": "Short Name", 
+        "required": true
+    },
+    "website": {
+        "type": "text",
+        "label": "Website",
+        "required": true
+    },
+    "address": {
+        "type": "text",
+        "label": "Address", 
+        "required": true
+    },
+    "country": {
+        "type": "select",
+        "label": "Country",
+        "required": true,
+        "options": [
+            {
+                "label": "India",
+                "value": "in"
+            },
+            {
+                "label": "Srilanka",
+                "value": "sl"
+            },
+            {
+                "label": "England",
+                "value": "en"
+            }
+        ]
+    } ,
+    "state": {
+        "type": "select",
+        "label": "State",
+        "required": true,
+        "options": [
+            {
+                "label": "Karnataka",
+                "value": "ka"
+            },
+            {
+                "label": "Tamilnadu",
+                "value": "tn"
+            },
+            {
+                "label": "Kerala",
+                "value": "kl"
+            }
+        ]
+    } ,
+
+    "city": {
+        "type": "text",
+        "label": "City", 
+        "required": true
+    },
+    "image": {
+        "type": "text",
+        "label": "Image",
+        "required": false
+    },
+    "mobileNumber": {
+        "type": "number",
+        "label": "Mobile Number",
+        "required": false
+    },
+    "phoneNumber": {
+        "type": "number",
+        "label": "Phone Number",
+        "required": false
+    },
+    "tier": {
+        "type": "select",
+        "label": "Tier",
+        "required": true,
+        "options": [
+            {
+                "label": "Tier 1",
+                "value": "t1"
+            },
+            {
+                "label": "Tier 2",
+                "value": "t2"
+            },
+            {
+                "label": "Tier 3",
+                "value": "t3"
+            }
+        ]
+    }
+}
+

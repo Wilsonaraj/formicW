@@ -1,0 +1,12 @@
+{
+    "username": {
+        "type": "text",
+        "label": "User Name", 
+        "required": true
+    },
+    "password": {
+        "type": "password",
+        "label": "Password", 
+        "required": true
+    }
+}
